@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>detail</title>
+
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+{#        <link rel="shortcut icon" href="{% static '/images/favicon.png' %}" type="image/x-icon"/>#}
+{#        <link rel="stylesheet" href="{% static 'web/css/animate.min.css' %}"/>#}
+        <link rel="stylesheet" href="{% static 'interface/bootstrap.min.css' %}"/>
+
+</head>
+<body>
+<a class="mr-2">{{ object.title }}</a>
+        <h2 style="text-shadow: aquamarine; font-size: inherit;">{{ object.category }} </h2>
+        <h4 class="article-title">{{ object.date }}</h4>
+      <h5 class="article-title">{{ object.description }}</h5>
+        <h4 class="article-title">{{ object.framework }}</h4>
+        <h4 class="article-title">{{ object.priority }}</h4>
+</body>
+</html>
