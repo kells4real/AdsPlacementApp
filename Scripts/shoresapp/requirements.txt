@@ -8,7 +8,7 @@ future==0.17.1
 idna==2.8
 macholib==1.11
 pefile==2019.4.18
-Pillow==6.0.0
+Pillow==9.0.1
 psycopg2==2.8.3
 PyInstaller==3.4
 pypiwin32==223
